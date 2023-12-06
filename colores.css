@@ -1,0 +1,38 @@
+/* Estilo para el fondo del juego */
+#juego {
+    -fx-background-color: #2C3E50;
+}
+/* Estilo para los botones del tablero */
+.button {
+    -fx-background-color: #ce93d8;
+    -fx-text-fill: #4a148c;
+}
+
+/* Estilo para los botones cuando se les da clic */
+.button:pressed {
+
+    -fx-background-color: #4a148c;
+}
+
+/* Estilo para los botones de las alertas */
+.dialog-pane .button {
+    -fx-background-color: #c09491;
+    -fx-text-fill: #c09491;
+}
+
+/* Estilo para los botones de las alertas cuando se les da clic */
+.dialog-pane .button:pressed {
+    -fx-background-color: #a4c09a;
+}
+
+/* Estilo para los títulos de las alertas */
+.dialog-pane .alert .header-panel {
+    -fx-background-color: #c09491;
+    -fx-text-fill: #ECF0F1;
+}
+
+/* Estilo para los mensajes de las alertas */
+.dialog-pane .alert .content {
+    -fx-background-color: #c09491;
+    -fx-text-fill: #34495E;
+}
